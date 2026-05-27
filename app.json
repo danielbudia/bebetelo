@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BEBETELO",
+    "slug": "bebetelo",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.bebetelo.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.bebetelo.app"
+    },
+    "backgroundColor": "#121212",
+    "extra": {
+      "eas": {
+        "projectId": "999d28be-c871-4160-aa05-987a195b9e5f"
+      }
+    }
+  }
+}
